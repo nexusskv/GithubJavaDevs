@@ -1,0 +1,18 @@
+PODS:
+  - AERecord (3.0.0)
+  - SwiftHTTP (2.0.0)
+  - SwiftyJSON (3.1.0)
+
+DEPENDENCIES:
+  - AERecord
+  - SwiftHTTP
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AERecord: eb32ea8474dfb46a7df5f7a08bfbd8853f713cfd
+  SwiftHTTP: 55a6f10e9952819ff728a3d9d1fa52ba3d266dba
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
+
+PODFILE CHECKSUM: 02448e66a9468b440d9a35e9c90044ec081fe40a
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,6 @@
+framework module Pods_TodayExtForJavaDevListBlack {
+  umbrella header "Pods-TodayExtForJavaDevListBlack-umbrella.h"
+
+  export *
+  module * { export * }
+}

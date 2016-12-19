@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1126B8341E06FA4800C97248 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126B8331E06FA4800C97248 /* AlertPresenter.swift */; };
+		1126B8351E06FA4900C97248 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126B8331E06FA4800C97248 /* AlertPresenter.swift */; };
+		1126B8391E071C6200C97248 /* Page+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126B8371E071C6200C97248 /* Page+CoreDataClass.swift */; };
+		1126B83A1E071C6200C97248 /* Page+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126B8371E071C6200C97248 /* Page+CoreDataClass.swift */; };
+		1126B83B1E071C6200C97248 /* Page+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126B8381E071C6200C97248 /* Page+CoreDataProperties.swift */; };
+		1126B83C1E071C6200C97248 /* Page+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126B8381E071C6200C97248 /* Page+CoreDataProperties.swift */; };
+		11A3EDD81E076FD700F3936D /* ApiConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039E91E0470D4004FFAB8 /* ApiConnector.swift */; };
+		11A3EDD91E076FED00F3936D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EC1E049B90004FFAB8 /* DetailsViewController.swift */; };
+		11A3EDDE1E07B52400F3936D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039411E0432A0004FFAB8 /* AppDelegate.swift */; };
+		11A3EDDF1E07B52500F3936D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039411E0432A0004FFAB8 /* AppDelegate.swift */; };
+		11B039421E0432A0004FFAB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039411E0432A0004FFAB8 /* AppDelegate.swift */; };
+		11B039441E0432A0004FFAB8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039431E0432A0004FFAB8 /* ListViewController.swift */; };
+		11B039471E0432A0004FFAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B039451E0432A0004FFAB8 /* Main.storyboard */; };
+		11B0394A1E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11B039481E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodeld */; };
+		11B0394C1E0432A0004FFAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B0394B1E0432A0004FFAB8 /* Assets.xcassets */; };
+		11B0394F1E0432A0004FFAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B0394D1E0432A0004FFAB8 /* LaunchScreen.storyboard */; };
+		11B0395F1E0445DA004FFAB8 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0395E1E0445DA004FFAB8 /* ListCell.swift */; };
+		11B039621E044C5C004FFAB8 /* GithubJavaDevList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11B039481E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodeld */; };
+		11B039631E044C5C004FFAB8 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0395E1E0445DA004FFAB8 /* ListCell.swift */; };
+		11B039641E044C5C004FFAB8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039431E0432A0004FFAB8 /* ListViewController.swift */; };
+		11B039651E044C5C004FFAB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039411E0432A0004FFAB8 /* AppDelegate.swift */; };
+		11B039681E044C5C004FFAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B0394D1E0432A0004FFAB8 /* LaunchScreen.storyboard */; };
+		11B039691E044C5C004FFAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B0394B1E0432A0004FFAB8 /* Assets.xcassets */; };
+		11B0396A1E044C5C004FFAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B039451E0432A0004FFAB8 /* Main.storyboard */; };
+		11B039C61E046EAA004FFAB8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B039761E046C78004FFAB8 /* NotificationCenter.framework */; };
+		11B039C91E046EAA004FFAB8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039C81E046EAA004FFAB8 /* TodayViewController.swift */; };
+		11B039CC1E046EAA004FFAB8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B039CA1E046EAA004FFAB8 /* MainInterface.storyboard */; };
+		11B039D01E046EAA004FFAB8 /* TodayExtForJavaDevListBlack.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11B039C51E046EAA004FFAB8 /* TodayExtForJavaDevListBlack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11B039D91E046EC0004FFAB8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B039761E046C78004FFAB8 /* NotificationCenter.framework */; };
+		11B039DC1E046EC0004FFAB8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039DB1E046EC0004FFAB8 /* TodayViewController.swift */; };
+		11B039DF1E046EC0004FFAB8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B039DD1E046EC0004FFAB8 /* MainInterface.storyboard */; };
+		11B039E31E046EC0004FFAB8 /* TodayExtForJavaDevListBlue.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11B039D81E046EC0004FFAB8 /* TodayExtForJavaDevListBlue.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11B039EA1E0470D4004FFAB8 /* ApiConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039E91E0470D4004FFAB8 /* ApiConnector.swift */; };
+		11B039ED1E049B90004FFAB8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EC1E049B90004FFAB8 /* DetailsViewController.swift */; };
+		11B039F01E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EE1E049FCC004FFAB8 /* Developer+CoreDataClass.swift */; };
+		11B039F11E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EE1E049FCC004FFAB8 /* Developer+CoreDataClass.swift */; };
+		11B039F21E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EE1E049FCC004FFAB8 /* Developer+CoreDataClass.swift */; };
+		11B039F31E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EE1E049FCC004FFAB8 /* Developer+CoreDataClass.swift */; };
+		11B039F41E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EF1E049FCC004FFAB8 /* Developer+CoreDataProperties.swift */; };
+		11B039F51E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EF1E049FCC004FFAB8 /* Developer+CoreDataProperties.swift */; };
+		11B039F61E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EF1E049FCC004FFAB8 /* Developer+CoreDataProperties.swift */; };
+		11B039F71E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039EF1E049FCC004FFAB8 /* Developer+CoreDataProperties.swift */; };
+		11B039FD1E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039FC1E04A599004FFAB8 /* GeneralDetailsCell.swift */; };
+		11B039FE1E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039FC1E04A599004FFAB8 /* GeneralDetailsCell.swift */; };
+		11B039FF1E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039FC1E04A599004FFAB8 /* GeneralDetailsCell.swift */; };
+		11B03A001E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B039FC1E04A599004FFAB8 /* GeneralDetailsCell.swift */; };
+		11B03A031E04B280004FFAB8 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B03A021E04B280004FFAB8 /* DetailsCell.swift */; };
+		11B03A041E04B280004FFAB8 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B03A021E04B280004FFAB8 /* DetailsCell.swift */; };
+		11B03A051E04B280004FFAB8 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B03A021E04B280004FFAB8 /* DetailsCell.swift */; };
+		11B03A061E04B280004FFAB8 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B03A021E04B280004FFAB8 /* DetailsCell.swift */; };
+		11E380511E04C05D000BEEC0 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0395E1E0445DA004FFAB8 /* ListCell.swift */; };
+		11E380521E04C05D000BEEC0 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0395E1E0445DA004FFAB8 /* ListCell.swift */; };
+		1D6C7B6117A5CD8140B392F6 /* Pods_GithubJavaDevListBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455418EA5139478061560FE /* Pods_GithubJavaDevListBlue.framework */; };
+		205B485471313C08814BB933 /* Pods_TodayExtForJavaDevListBlack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED89259F187C738B3501FC48 /* Pods_TodayExtForJavaDevListBlack.framework */; };
+		8E4B1653BF949CC50C978A54 /* Pods_GithubJavaDevListBlack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C660A5025A733CF21AEEF9D8 /* Pods_GithubJavaDevListBlack.framework */; };
+		E6A97070487CAC0CBADE4413 /* Pods_TodayExtForJavaDevListBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A71F3815248DC239F8908A /* Pods_TodayExtForJavaDevListBlue.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B039CE1E046EAA004FFAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B039361E04329F004FFAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B039C41E046EAA004FFAB8;
+			remoteInfo = TodayExtForJavaDevListBlack;
+		};
+		11B039E11E046EC0004FFAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B039361E04329F004FFAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B039D71E046EC0004FFAB8;
+			remoteInfo = TodayExtForJavaDevListBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11B039851E046C79004FFAB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11B039D01E046EAA004FFAB8 /* TodayExtForJavaDevListBlack.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039991E046CF5004FFAB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11B039E31E046EC0004FFAB8 /* TodayExtForJavaDevListBlue.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1126B8331E06FA4800C97248 /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertPresenter.swift; path = Helpers/UI/AlertPresenter/AlertPresenter.swift; sourceTree = "<group>"; };
+		1126B8371E071C6200C97248 /* Page+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Page+CoreDataClass.swift"; path = "CoreData/ManagedObjects/Page/Page+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1126B8381E071C6200C97248 /* Page+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Page+CoreDataProperties.swift"; path = "CoreData/ManagedObjects/Page/Page+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		11A3EDDA1E07A04C00F3936D /* GithubJavaDevListBlack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GithubJavaDevListBlack.entitlements; sourceTree = SOURCE_ROOT; };
+		11A3EDDB1E07B2B800F3936D /* GithubJavaDevListBlue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GithubJavaDevListBlue.entitlements; sourceTree = SOURCE_ROOT; };
+		11A3EDDC1E07B42600F3936D /* TodayExtForJavaDevListBlack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodayExtForJavaDevListBlack.entitlements; sourceTree = "<group>"; };
+		11A3EDDD1E07B43600F3936D /* TodayExtForJavaDevListBlue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodayExtForJavaDevListBlue.entitlements; sourceTree = "<group>"; };
+		11B0393E1E04329F004FFAB8 /* GithubJavaDevListBlack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubJavaDevListBlack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B039411E0432A0004FFAB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11B039431E0432A0004FFAB8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		11B039461E0432A0004FFAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B039491E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubJavaDevList.xcdatamodel; sourceTree = "<group>"; };
+		11B0394B1E0432A0004FFAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B0394E1E0432A0004FFAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B039501E0432A0004FFAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B0395E1E0445DA004FFAB8 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = Helpers/UI/ListCell/ListCell.swift; sourceTree = "<group>"; };
+		11B0396E1E044C5C004FFAB8 /* GithubJavaDevListBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubJavaDevListBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B0396F1E044C75004FFAB8 /* GithubJavaDevList copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GithubJavaDevList copy-Info.plist"; path = "/Users/rost/myProj/test/SWIFT/GithubJavaDevList/GithubJavaDevList/GithubJavaDevList copy-Info.plist"; sourceTree = "<absolute>"; };
+		11B039761E046C78004FFAB8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		11B039C51E046EAA004FFAB8 /* TodayExtForJavaDevListBlack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtForJavaDevListBlack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B039C81E046EAA004FFAB8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		11B039CB1E046EAA004FFAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		11B039CD1E046EAA004FFAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B039D81E046EC0004FFAB8 /* TodayExtForJavaDevListBlue.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtForJavaDevListBlue.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B039DB1E046EC0004FFAB8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		11B039DE1E046EC0004FFAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		11B039E01E046EC0004FFAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B039E91E0470D4004FFAB8 /* ApiConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiConnector.swift; path = Web/ApiConnector/ApiConnector.swift; sourceTree = "<group>"; };
+		11B039EC1E049B90004FFAB8 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		11B039EE1E049FCC004FFAB8 /* Developer+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Developer+CoreDataClass.swift"; path = "CoreData/ManagedObjects/Developer/Developer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		11B039EF1E049FCC004FFAB8 /* Developer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Developer+CoreDataProperties.swift"; path = "CoreData/ManagedObjects/Developer/Developer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		11B039FC1E04A599004FFAB8 /* GeneralDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralDetailsCell.swift; path = Helpers/UI/GeneralDetailsCell/GeneralDetailsCell.swift; sourceTree = "<group>"; };
+		11B03A021E04B280004FFAB8 /* DetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsCell.swift; path = Helpers/UI/DetailsCell/DetailsCell.swift; sourceTree = "<group>"; };
+		51EF0E9591075E11FD6F1422 /* Pods-TodayExtForJavaDevListBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtForJavaDevListBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtForJavaDevListBlue/Pods-TodayExtForJavaDevListBlue.release.xcconfig"; sourceTree = "<group>"; };
+		665E9C3AD27FDA23B833992E /* Pods-TodayExtForJavaDevListBlack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtForJavaDevListBlack.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtForJavaDevListBlack/Pods-TodayExtForJavaDevListBlack.release.xcconfig"; sourceTree = "<group>"; };
+		8455418EA5139478061560FE /* Pods_GithubJavaDevListBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubJavaDevListBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7A384E0D9FE71F27A2661C /* Pods-GithubJavaDevListBlack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubJavaDevListBlack.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubJavaDevListBlack/Pods-GithubJavaDevListBlack.release.xcconfig"; sourceTree = "<group>"; };
+		9F1BF328684BD7E5D5A1C479 /* Pods-TodayExtForJavaDevListBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtForJavaDevListBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtForJavaDevListBlue/Pods-TodayExtForJavaDevListBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		B01F9CDB911CCF9A5D1CCB7D /* Pods-GithubJavaDevListBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubJavaDevListBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubJavaDevListBlue/Pods-GithubJavaDevListBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		B557A725B0F8EC1FD932B32B /* Pods-GithubJavaDevListBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubJavaDevListBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubJavaDevListBlue/Pods-GithubJavaDevListBlue.release.xcconfig"; sourceTree = "<group>"; };
+		C660A5025A733CF21AEEF9D8 /* Pods_GithubJavaDevListBlack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubJavaDevListBlack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A71F3815248DC239F8908A /* Pods_TodayExtForJavaDevListBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayExtForJavaDevListBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E485D5B9FDB428250CB1E35F /* Pods-TodayExtForJavaDevListBlack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtForJavaDevListBlack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtForJavaDevListBlack/Pods-TodayExtForJavaDevListBlack.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BA559FE4A36911AA4B4B13 /* Pods-GithubJavaDevListBlack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubJavaDevListBlack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubJavaDevListBlack/Pods-GithubJavaDevListBlack.debug.xcconfig"; sourceTree = "<group>"; };
+		ED89259F187C738B3501FC48 /* Pods_TodayExtForJavaDevListBlack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayExtForJavaDevListBlack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B0393B1E04329F004FFAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4B1653BF949CC50C978A54 /* Pods_GithubJavaDevListBlack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039661E044C5C004FFAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C7B6117A5CD8140B392F6 /* Pods_GithubJavaDevListBlue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039C21E046EAA004FFAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039C61E046EAA004FFAB8 /* NotificationCenter.framework in Frameworks */,
+				205B485471313C08814BB933 /* Pods_TodayExtForJavaDevListBlack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039D51E046EC0004FFAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039D91E046EC0004FFAB8 /* NotificationCenter.framework in Frameworks */,
+				E6A97070487CAC0CBADE4413 /* Pods_TodayExtForJavaDevListBlue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1126B8311E06F9DA00C97248 /* AlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				1126B8331E06FA4800C97248 /* AlertPresenter.swift */,
+			);
+			name = AlertPresenter;
+			sourceTree = "<group>";
+		};
+		1126B8321E06F9E700C97248 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				11B03A011E04B258004FFAB8 /* DetailsCell */,
+				11B039FB1E04A55C004FFAB8 /* GeneralDetailsCell */,
+				11B0395D1E0445B1004FFAB8 /* ListCell */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		1126B8361E071C4400C97248 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1126B8371E071C6200C97248 /* Page+CoreDataClass.swift */,
+				1126B8381E071C6200C97248 /* Page+CoreDataProperties.swift */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		11B039351E04329F004FFAB8 = {
+			isa = PBXGroup;
+			children = (
+				11B039401E04329F004FFAB8 /* GithubJavaDevList */,
+				11B039C71E046EAA004FFAB8 /* TodayExtForJavaDevListBlack */,
+				11B039DA1E046EC0004FFAB8 /* TodayExtForJavaDevListBlue */,
+				11B039751E046C78004FFAB8 /* Frameworks */,
+				11B0393F1E04329F004FFAB8 /* Products */,
+				11B0396F1E044C75004FFAB8 /* GithubJavaDevList copy-Info.plist */,
+				FBEB955A3E43992110E853C1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		11B0393F1E04329F004FFAB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B0393E1E04329F004FFAB8 /* GithubJavaDevListBlack.app */,
+				11B0396E1E044C5C004FFAB8 /* GithubJavaDevListBlue.app */,
+				11B039C51E046EAA004FFAB8 /* TodayExtForJavaDevListBlack.appex */,
+				11B039D81E046EC0004FFAB8 /* TodayExtForJavaDevListBlue.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B039401E04329F004FFAB8 /* GithubJavaDevList */ = {
+			isa = PBXGroup;
+			children = (
+				11B039E71E0470AE004FFAB8 /* Web */,
+				11B039561E0432B8004FFAB8 /* ViewControllers */,
+				11B0395B1E04459E004FFAB8 /* Helpers */,
+				11B039571E0432C0004FFAB8 /* Resources */,
+			);
+			path = GithubJavaDevList;
+			sourceTree = "<group>";
+		};
+		11B039561E0432B8004FFAB8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11B039411E0432A0004FFAB8 /* AppDelegate.swift */,
+				11B0395A1E043334004FFAB8 /* ListViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11B039571E0432C0004FFAB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11B039581E043303004FFAB8 /* Storyboards */,
+				11B0394B1E0432A0004FFAB8 /* Assets.xcassets */,
+				11B039501E0432A0004FFAB8 /* Info.plist */,
+				11A3EDDB1E07B2B800F3936D /* GithubJavaDevListBlue.entitlements */,
+				11A3EDDA1E07A04C00F3936D /* GithubJavaDevListBlack.entitlements */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11B039581E043303004FFAB8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				11B039451E0432A0004FFAB8 /* Main.storyboard */,
+				11B0394D1E0432A0004FFAB8 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		11B039591E043315004FFAB8 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				11B039481E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodeld */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		11B0395A1E043334004FFAB8 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11B039431E0432A0004FFAB8 /* ListViewController.swift */,
+				11B039EB1E049B68004FFAB8 /* DetailsViewController */,
+			);
+			name = ListViewController;
+			sourceTree = "<group>";
+		};
+		11B0395B1E04459E004FFAB8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				11B039F81E049FDF004FFAB8 /* CoreData */,
+				11B0395C1E0445AA004FFAB8 /* UI */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		11B0395C1E0445AA004FFAB8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1126B8321E06F9E700C97248 /* TableCells */,
+				1126B8311E06F9DA00C97248 /* AlertPresenter */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		11B0395D1E0445B1004FFAB8 /* ListCell */ = {
+			isa = PBXGroup;
+			children = (
+				11B0395E1E0445DA004FFAB8 /* ListCell.swift */,
+			);
+			name = ListCell;
+			sourceTree = "<group>";
+		};
+		11B039751E046C78004FFAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B039761E046C78004FFAB8 /* NotificationCenter.framework */,
+				C660A5025A733CF21AEEF9D8 /* Pods_GithubJavaDevListBlack.framework */,
+				8455418EA5139478061560FE /* Pods_GithubJavaDevListBlue.framework */,
+				ED89259F187C738B3501FC48 /* Pods_TodayExtForJavaDevListBlack.framework */,
+				C6A71F3815248DC239F8908A /* Pods_TodayExtForJavaDevListBlue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11B039C71E046EAA004FFAB8 /* TodayExtForJavaDevListBlack */ = {
+			isa = PBXGroup;
+			children = (
+				11A3EDDC1E07B42600F3936D /* TodayExtForJavaDevListBlack.entitlements */,
+				11B039C81E046EAA004FFAB8 /* TodayViewController.swift */,
+				11B039CA1E046EAA004FFAB8 /* MainInterface.storyboard */,
+				11B039CD1E046EAA004FFAB8 /* Info.plist */,
+			);
+			path = TodayExtForJavaDevListBlack;
+			sourceTree = "<group>";
+		};
+		11B039DA1E046EC0004FFAB8 /* TodayExtForJavaDevListBlue */ = {
+			isa = PBXGroup;
+			children = (
+				11A3EDDD1E07B43600F3936D /* TodayExtForJavaDevListBlue.entitlements */,
+				11B039DB1E046EC0004FFAB8 /* TodayViewController.swift */,
+				11B039DD1E046EC0004FFAB8 /* MainInterface.storyboard */,
+				11B039E01E046EC0004FFAB8 /* Info.plist */,
+			);
+			path = TodayExtForJavaDevListBlue;
+			sourceTree = "<group>";
+		};
+		11B039E71E0470AE004FFAB8 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				11B039E81E0470BB004FFAB8 /* ApiConnector */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		11B039E81E0470BB004FFAB8 /* ApiConnector */ = {
+			isa = PBXGroup;
+			children = (
+				11B039E91E0470D4004FFAB8 /* ApiConnector.swift */,
+			);
+			name = ApiConnector;
+			sourceTree = "<group>";
+		};
+		11B039EB1E049B68004FFAB8 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11B039EC1E049B90004FFAB8 /* DetailsViewController.swift */,
+			);
+			name = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		11B039F81E049FDF004FFAB8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				11B039F91E049FEA004FFAB8 /* ManagedObjects */,
+				11B039591E043315004FFAB8 /* CoreDataModel */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		11B039F91E049FEA004FFAB8 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				1126B8361E071C4400C97248 /* Page */,
+				11B039FA1E049FF1004FFAB8 /* Developer */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		11B039FA1E049FF1004FFAB8 /* Developer */ = {
+			isa = PBXGroup;
+			children = (
+				11B039EE1E049FCC004FFAB8 /* Developer+CoreDataClass.swift */,
+				11B039EF1E049FCC004FFAB8 /* Developer+CoreDataProperties.swift */,
+			);
+			name = Developer;
+			sourceTree = "<group>";
+		};
+		11B039FB1E04A55C004FFAB8 /* GeneralDetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				11B039FC1E04A599004FFAB8 /* GeneralDetailsCell.swift */,
+			);
+			name = GeneralDetailsCell;
+			sourceTree = "<group>";
+		};
+		11B03A011E04B258004FFAB8 /* DetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				11B03A021E04B280004FFAB8 /* DetailsCell.swift */,
+			);
+			name = DetailsCell;
+			sourceTree = "<group>";
+		};
+		FBEB955A3E43992110E853C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA559FE4A36911AA4B4B13 /* Pods-GithubJavaDevListBlack.debug.xcconfig */,
+				8D7A384E0D9FE71F27A2661C /* Pods-GithubJavaDevListBlack.release.xcconfig */,
+				B01F9CDB911CCF9A5D1CCB7D /* Pods-GithubJavaDevListBlue.debug.xcconfig */,
+				B557A725B0F8EC1FD932B32B /* Pods-GithubJavaDevListBlue.release.xcconfig */,
+				E485D5B9FDB428250CB1E35F /* Pods-TodayExtForJavaDevListBlack.debug.xcconfig */,
+				665E9C3AD27FDA23B833992E /* Pods-TodayExtForJavaDevListBlack.release.xcconfig */,
+				9F1BF328684BD7E5D5A1C479 /* Pods-TodayExtForJavaDevListBlue.debug.xcconfig */,
+				51EF0E9591075E11FD6F1422 /* Pods-TodayExtForJavaDevListBlue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B0393D1E04329F004FFAB8 /* GithubJavaDevListBlack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B039531E0432A0004FFAB8 /* Build configuration list for PBXNativeTarget "GithubJavaDevListBlack" */;
+			buildPhases = (
+				7CC06AFAABE4FFEFC3357D91 /* [CP] Check Pods Manifest.lock */,
+				11B0393A1E04329F004FFAB8 /* Sources */,
+				11B0393B1E04329F004FFAB8 /* Frameworks */,
+				11B0393C1E04329F004FFAB8 /* Resources */,
+				11B039851E046C79004FFAB8 /* Embed App Extensions */,
+				723022F43E765C5416D71456 /* [CP] Embed Pods Frameworks */,
+				89EFCA93CF5F60BAC3C5DA69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B039CF1E046EAA004FFAB8 /* PBXTargetDependency */,
+			);
+			name = GithubJavaDevListBlack;
+			productName = GithubJavaDevList;
+			productReference = 11B0393E1E04329F004FFAB8 /* GithubJavaDevListBlack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B039601E044C5C004FFAB8 /* GithubJavaDevListBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B0396B1E044C5C004FFAB8 /* Build configuration list for PBXNativeTarget "GithubJavaDevListBlue" */;
+			buildPhases = (
+				55F7019F3A058AFADCA09055 /* [CP] Check Pods Manifest.lock */,
+				11B039611E044C5C004FFAB8 /* Sources */,
+				11B039661E044C5C004FFAB8 /* Frameworks */,
+				11B039671E044C5C004FFAB8 /* Resources */,
+				11B039991E046CF5004FFAB8 /* Embed App Extensions */,
+				7CAAB787F19530ED14CF87F8 /* [CP] Embed Pods Frameworks */,
+				9EEFE1AD1BDBE06B5920146B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B039E21E046EC0004FFAB8 /* PBXTargetDependency */,
+			);
+			name = GithubJavaDevListBlue;
+			productName = GithubJavaDevList;
+			productReference = 11B0396E1E044C5C004FFAB8 /* GithubJavaDevListBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B039C41E046EAA004FFAB8 /* TodayExtForJavaDevListBlack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B039D11E046EAA004FFAB8 /* Build configuration list for PBXNativeTarget "TodayExtForJavaDevListBlack" */;
+			buildPhases = (
+				A0416ACF299C39F70F002CAD /* [CP] Check Pods Manifest.lock */,
+				11B039C11E046EAA004FFAB8 /* Sources */,
+				11B039C21E046EAA004FFAB8 /* Frameworks */,
+				11B039C31E046EAA004FFAB8 /* Resources */,
+				52A94D17E528D1FA99375093 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExtForJavaDevListBlack;
+			productName = TodayExtForJavaDevListBlack;
+			productReference = 11B039C51E046EAA004FFAB8 /* TodayExtForJavaDevListBlack.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		11B039D71E046EC0004FFAB8 /* TodayExtForJavaDevListBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B039E41E046EC0004FFAB8 /* Build configuration list for PBXNativeTarget "TodayExtForJavaDevListBlue" */;
+			buildPhases = (
+				5A166FA2D52818FF49E4AE40 /* [CP] Check Pods Manifest.lock */,
+				11B039D41E046EC0004FFAB8 /* Sources */,
+				11B039D51E046EC0004FFAB8 /* Frameworks */,
+				11B039D61E046EC0004FFAB8 /* Resources */,
+				CC15B08E4F303F79F79EB5AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExtForJavaDevListBlue;
+			productName = TodayExtForJavaDevListBlue;
+			productReference = 11B039D81E046EC0004FFAB8 /* TodayExtForJavaDevListBlue.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B039361E04329F004FFAB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rost Gress";
+				TargetAttributes = {
+					11B0393D1E04329F004FFAB8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3BG2WPAVT3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					11B039601E044C5C004FFAB8 = {
+						DevelopmentTeam = 3BG2WPAVT3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					11B039C41E046EAA004FFAB8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3BG2WPAVT3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					11B039D71E046EC0004FFAB8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3BG2WPAVT3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11B039391E04329F004FFAB8 /* Build configuration list for PBXProject "GithubJavaDevList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B039351E04329F004FFAB8;
+			productRefGroup = 11B0393F1E04329F004FFAB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B0393D1E04329F004FFAB8 /* GithubJavaDevListBlack */,
+				11B039601E044C5C004FFAB8 /* GithubJavaDevListBlue */,
+				11B039C41E046EAA004FFAB8 /* TodayExtForJavaDevListBlack */,
+				11B039D71E046EC0004FFAB8 /* TodayExtForJavaDevListBlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B0393C1E04329F004FFAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B0394F1E0432A0004FFAB8 /* LaunchScreen.storyboard in Resources */,
+				11B0394C1E0432A0004FFAB8 /* Assets.xcassets in Resources */,
+				11B039471E0432A0004FFAB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039671E044C5C004FFAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039681E044C5C004FFAB8 /* LaunchScreen.storyboard in Resources */,
+				11B039691E044C5C004FFAB8 /* Assets.xcassets in Resources */,
+				11B0396A1E044C5C004FFAB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039C31E046EAA004FFAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039CC1E046EAA004FFAB8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039D61E046EC0004FFAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039DF1E046EC0004FFAB8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52A94D17E528D1FA99375093 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayExtForJavaDevListBlack/Pods-TodayExtForJavaDevListBlack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F7019F3A058AFADCA09055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A166FA2D52818FF49E4AE40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		723022F43E765C5416D71456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubJavaDevListBlack/Pods-GithubJavaDevListBlack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CAAB787F19530ED14CF87F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubJavaDevListBlue/Pods-GithubJavaDevListBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC06AFAABE4FFEFC3357D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89EFCA93CF5F60BAC3C5DA69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubJavaDevListBlack/Pods-GithubJavaDevListBlack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEFE1AD1BDBE06B5920146B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubJavaDevListBlue/Pods-GithubJavaDevListBlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0416ACF299C39F70F002CAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC15B08E4F303F79F79EB5AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayExtForJavaDevListBlue/Pods-TodayExtForJavaDevListBlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B0393A1E04329F004FFAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039F01E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */,
+				1126B8341E06FA4800C97248 /* AlertPresenter.swift in Sources */,
+				11B0394A1E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodeld in Sources */,
+				1126B83B1E071C6200C97248 /* Page+CoreDataProperties.swift in Sources */,
+				11B03A031E04B280004FFAB8 /* DetailsCell.swift in Sources */,
+				1126B8391E071C6200C97248 /* Page+CoreDataClass.swift in Sources */,
+				11B0395F1E0445DA004FFAB8 /* ListCell.swift in Sources */,
+				11B039EA1E0470D4004FFAB8 /* ApiConnector.swift in Sources */,
+				11B039441E0432A0004FFAB8 /* ListViewController.swift in Sources */,
+				11B039421E0432A0004FFAB8 /* AppDelegate.swift in Sources */,
+				11B039FD1E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */,
+				11B039F41E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */,
+				11B039ED1E049B90004FFAB8 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039611E044C5C004FFAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039F11E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */,
+				1126B83C1E071C6200C97248 /* Page+CoreDataProperties.swift in Sources */,
+				11B039621E044C5C004FFAB8 /* GithubJavaDevList.xcdatamodeld in Sources */,
+				11B03A041E04B280004FFAB8 /* DetailsCell.swift in Sources */,
+				11B039631E044C5C004FFAB8 /* ListCell.swift in Sources */,
+				1126B83A1E071C6200C97248 /* Page+CoreDataClass.swift in Sources */,
+				11B039641E044C5C004FFAB8 /* ListViewController.swift in Sources */,
+				1126B8351E06FA4900C97248 /* AlertPresenter.swift in Sources */,
+				11B039F51E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */,
+				11B039FE1E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */,
+				11A3EDD81E076FD700F3936D /* ApiConnector.swift in Sources */,
+				11A3EDD91E076FED00F3936D /* DetailsViewController.swift in Sources */,
+				11B039651E044C5C004FFAB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039C11E046EAA004FFAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039F21E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */,
+				11B039F61E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */,
+				11B03A051E04B280004FFAB8 /* DetailsCell.swift in Sources */,
+				11E380511E04C05D000BEEC0 /* ListCell.swift in Sources */,
+				11A3EDDF1E07B52500F3936D /* AppDelegate.swift in Sources */,
+				11B039C91E046EAA004FFAB8 /* TodayViewController.swift in Sources */,
+				11B039FF1E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B039D41E046EC0004FFAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B039F31E049FCC004FFAB8 /* Developer+CoreDataClass.swift in Sources */,
+				11B039F71E049FCC004FFAB8 /* Developer+CoreDataProperties.swift in Sources */,
+				11B03A061E04B280004FFAB8 /* DetailsCell.swift in Sources */,
+				11E380521E04C05D000BEEC0 /* ListCell.swift in Sources */,
+				11A3EDDE1E07B52400F3936D /* AppDelegate.swift in Sources */,
+				11B039DC1E046EC0004FFAB8 /* TodayViewController.swift in Sources */,
+				11B03A001E04A599004FFAB8 /* GeneralDetailsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B039CF1E046EAA004FFAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B039C41E046EAA004FFAB8 /* TodayExtForJavaDevListBlack */;
+			targetProxy = 11B039CE1E046EAA004FFAB8 /* PBXContainerItemProxy */;
+		};
+		11B039E21E046EC0004FFAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B039D71E046EC0004FFAB8 /* TodayExtForJavaDevListBlue */;
+			targetProxy = 11B039E11E046EC0004FFAB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11B039451E0432A0004FFAB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B039461E0432A0004FFAB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B0394D1E0432A0004FFAB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B0394E1E0432A0004FFAB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		11B039CA1E046EAA004FFAB8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B039CB1E046EAA004FFAB8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		11B039DD1E046EC0004FFAB8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B039DE1E046EC0004FFAB8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B039511E0432A0004FFAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B039521E0432A0004FFAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B039541E0432A0004FFAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BA559FE4A36911AA4B4B13 /* Pods-GithubJavaDevListBlack.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GithubJavaDevListBlack.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = GithubJavaDevList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11B039551E0432A0004FFAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7A384E0D9FE71F27A2661C /* Pods-GithubJavaDevListBlack.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GithubJavaDevListBlack.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = GithubJavaDevList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		11B0396C1E044C5C004FFAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01F9CDB911CCF9A5D1CCB7D /* Pods-GithubJavaDevListBlue.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GithubJavaDevListBlue.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = "GithubJavaDevList copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11B0396D1E044C5C004FFAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B557A725B0F8EC1FD932B32B /* Pods-GithubJavaDevListBlue.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GithubJavaDevListBlue.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = "GithubJavaDevList copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		11B039D21E046EAA004FFAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E485D5B9FDB428250CB1E35F /* Pods-TodayExtForJavaDevListBlack.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtForJavaDevListBlack/TodayExtForJavaDevListBlack.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = TodayExtForJavaDevListBlack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlack.TodayExtForJavaDevListBlack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11B039D31E046EAA004FFAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665E9C3AD27FDA23B833992E /* Pods-TodayExtForJavaDevListBlack.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtForJavaDevListBlack/TodayExtForJavaDevListBlack.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = TodayExtForJavaDevListBlack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlack.TodayExtForJavaDevListBlack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		11B039E51E046EC0004FFAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1BF328684BD7E5D5A1C479 /* Pods-TodayExtForJavaDevListBlue.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtForJavaDevListBlue/TodayExtForJavaDevListBlue.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = TodayExtForJavaDevListBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlue.TodayExtForJavaDevListBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11B039E61E046EC0004FFAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EF0E9591075E11FD6F1422 /* Pods-TodayExtForJavaDevListBlue.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtForJavaDevListBlue/TodayExtForJavaDevListBlue.entitlements;
+				DEVELOPMENT_TEAM = 3BG2WPAVT3;
+				INFOPLIST_FILE = TodayExtForJavaDevListBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgress.GithubJavaDevListBlue.TodayExtForJavaDevListBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B039391E04329F004FFAB8 /* Build configuration list for PBXProject "GithubJavaDevList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B039511E0432A0004FFAB8 /* Debug */,
+				11B039521E0432A0004FFAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B039531E0432A0004FFAB8 /* Build configuration list for PBXNativeTarget "GithubJavaDevListBlack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B039541E0432A0004FFAB8 /* Debug */,
+				11B039551E0432A0004FFAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B0396B1E044C5C004FFAB8 /* Build configuration list for PBXNativeTarget "GithubJavaDevListBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B0396C1E044C5C004FFAB8 /* Debug */,
+				11B0396D1E044C5C004FFAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B039D11E046EAA004FFAB8 /* Build configuration list for PBXNativeTarget "TodayExtForJavaDevListBlack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B039D21E046EAA004FFAB8 /* Debug */,
+				11B039D31E046EAA004FFAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B039E41E046EC0004FFAB8 /* Build configuration list for PBXNativeTarget "TodayExtForJavaDevListBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B039E51E046EC0004FFAB8 /* Debug */,
+				11B039E61E046EC0004FFAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11B039481E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11B039491E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodel */,
+			);
+			currentVersion = 11B039491E0432A0004FFAB8 /* GithubJavaDevList.xcdatamodel */;
+			path = GithubJavaDevList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11B039361E04329F004FFAB8 /* Project object */;
+}

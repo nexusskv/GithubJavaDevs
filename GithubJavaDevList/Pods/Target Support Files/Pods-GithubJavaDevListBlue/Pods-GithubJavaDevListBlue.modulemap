@@ -1,0 +1,6 @@
+framework module Pods_GithubJavaDevListBlue {
+  umbrella header "Pods-GithubJavaDevListBlue-umbrella.h"
+
+  export *
+  module * { export * }
+}

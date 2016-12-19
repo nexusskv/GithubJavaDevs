@@ -1,0 +1,6 @@
+framework module Pods_TodayExtForJavaDevListBlue {
+  umbrella header "Pods-TodayExtForJavaDevListBlue-umbrella.h"
+
+  export *
+  module * { export * }
+}
